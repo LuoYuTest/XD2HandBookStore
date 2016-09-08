@@ -1,48 +1,16 @@
-@media screen and (min-width: 480px) {    
-/*********************************
-PAGE: MAIN
-*********************************/  
 
-#gallery li {
-    width: 19%;
+@media (min-width: 768px) and (max-width: 1199px) {
 
-  }
+    /* class for 4 columns */
 
-#gallery li:nth-child(5n) {
-    clear: left;
-  }
+    #gallery ul li {
+        width: 22.5%;
+    }
 }
-
-
-@media screen and (min-width: 480px) {    
-/*********************************
-PAGE: MAIN
-*********************************/  
-    nav {
-        float: left;
-        width: 100%;
-        padding-left: 25px;
-        text-align: left;
-        border-bottom: 25px solid #fafafa;
-    }   
-    
-    .login {
-        float: right;
-        width: 45%;
-        font-size: 0.8em;
-        text-align: right;
-        padding-right: 25px;
-        margin-top: 5px;
+@media (min-width: 480px) {
+    /* class for 2 columns */
+    #gallery ul li {
+        width: 47.5%;
     }
     
-    #logo {
-        float: left;
-        margin-left: 5%;
-        text-align: left;
-        width: 45%;
-    }
-    
-    h1 {
-        font-size: 1.5em;
-    }
 }

@@ -22,6 +22,12 @@ h3  {
   margin: 0 0 1em 0;
 }
 
+h4 {
+    font-size: 0.9em;
+    margin: 0 0 0.5em 0;
+    color: #4a4a4a;
+}
+
 /************************************************
 HEADING
 ************************************************/
@@ -113,6 +119,7 @@ footer {
 /************************************************
 PAGE: MAIN
 ************************************************/
+/*
 #gallery {
   margin: 0;
   padding: 0;
@@ -136,6 +143,53 @@ PAGE: MAIN
   font-size: 0.75em;
   color: #1b313f;
 }
+*/
+
+#gallery {
+    list-style: none;
+    font-size: 0px;
+    margin-left: -2.5%;
+}
+
+#gallery li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 2.5% 2.5%;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#gallery li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px;
+}
+
+#gallery li h4 {
+    margin: 0 0 5px;
+}
+
+#gallery li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+}
+
+
+/* class for 3 columns */
+#gallery ul li {
+    width: 30.83%;
+}
+
+
+
+
 
 /************************************************
 COLOR
