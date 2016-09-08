@@ -12,4 +12,3 @@
 ![](http://7xyfje.com1.z1.glb.clouddn.com/Main%20Page.jpg)
 - 主页面（2）
 ![](http://7xyfje.com1.z1.glb.clouddn.com/Main%20Page%20(1).jpg)
-update
