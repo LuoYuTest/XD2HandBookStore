@@ -4,10 +4,10 @@
   *********************************/  
 
 #gallery li {
-    width: 45%;
+    width: 20%;
   }
 
   #gallery li:nth-child(3n) {
-    clear: left;
+    clear: right;
   }
 }
