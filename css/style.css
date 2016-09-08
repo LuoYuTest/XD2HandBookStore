@@ -122,31 +122,6 @@ footer {
 /************************************************
 PAGE: MAIN
 ************************************************/
-/*
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-}
-
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
-
-}
-
-
-#gallery li a p {
-  margin: 0;
-  padding: 2%;
-  font-size: 0.75em;
-  color: #1b313f;
-}
-*/
 
 #gallery {
     list-style: none;
@@ -157,7 +132,7 @@ PAGE: MAIN
 #gallery li {
     display: inline-block;
     padding: 10px;
-    margin: 0 0 1.5% 1.5%;
+    margin: 0 0 3.5% 1.5%;
     background: #f5f5f5;
     border: 1px solid #ddd;
     font-size: 16px;
@@ -182,6 +157,7 @@ PAGE: MAIN
     font-size: .9em;
     line-height: 1.5em;
     color: #999;
+    margin: 0;
 }
 
 
