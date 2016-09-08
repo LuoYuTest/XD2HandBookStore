@@ -1,0 +1,160 @@
+/************************************************
+GENERAL
+************************************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+h3  {
+  margin: 0 0 1em 0;
+}
+
+/************************************************
+HEADING
+************************************************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  color: #50e3c2;
+}
+
+h1  {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/************************************************
+NAVIGATION
+************************************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+.login {
+  text-align: center;
+}
+
+.login ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.login li {
+  display: inline-block;
+}
+
+.login li a {
+  margin: 0 20px 0 20px;
+}
+
+.login a {
+  font-weight: 800;
+  color: #4a4a4a;
+}
+
+/************************************************
+FOOTER
+************************************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both;
+}
+
+/************************************************
+PAGE: MAIN
+************************************************/
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+#gallery li {
+  float: left;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding: 2%;
+  font-size: 0.75em;
+  color: #1b313f;
+}
+
+/************************************************
+COLOR
+************************************************/
+/*Site body */
+body {
+  background-color: #fff;
+  color: #1b313f;
+}
+
+/* nav background on mobile*/
+nav {
+  background: #50e3c2;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #4a4a4a;
+}
