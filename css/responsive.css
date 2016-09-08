@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) {
+  /*********************************
+  PAGE: MAIN
+  *********************************/  
+
+#gallery li {
+    width: 45%;
+  }
+
+  #gallery li:nth-child(3n) {
+    clear: left;
+  }
+}
