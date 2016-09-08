@@ -7,10 +7,16 @@
         width: 22.5%;
     }
 }
-@media (min-width: 480px) {
+@media (min-width: 320px) {
     /* class for 2 columns */
+/*
     #gallery ul li {
         width: 47.5%;
     }
+    
+*/
+    
+#gallery ul li {
+    width: 30.83%;
     
 }
