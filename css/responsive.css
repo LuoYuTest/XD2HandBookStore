@@ -33,9 +33,6 @@
 @media (min-width: 660px) and (max-width: 970px) {
 
     /* class for 4 columns */
-    #gallery {
-        width: 700px;
-    }
 
     #gallery ul li {
         width: 22.5%;
