@@ -32,6 +32,7 @@ PAGE: MAIN
         font-size: 0.8em;
         text-align: right;
         padding-right: 25px;
+        margin-top: 5px;
     }
     
     #logo {
