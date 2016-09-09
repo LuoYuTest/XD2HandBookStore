@@ -26,6 +26,11 @@
     h1 {
         font-size: 1.5em;
     }
+
+    form {
+    display: inline-block;
+    margin: 0 0 0 332px;
+    }
 }
 
 
