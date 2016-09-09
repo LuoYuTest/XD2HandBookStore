@@ -6,7 +6,7 @@ body {
 }
 
 #wrapper {
-  max-width: 940px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -126,7 +126,7 @@ PAGE: MAIN
 #gallery {
     list-style: none;
     font-size: 0px;
-    margin-left: -8.5%;
+    margin-left:0;
 }
 
 #gallery li {
