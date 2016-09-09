@@ -18,9 +18,18 @@ a {
 img {
   max-width: 100%;
 }
+
 h3  {
   margin: 0 0 1em 0;
 }
+
+h4 {
+    font-size: 0.9em;
+    margin: 0 0 0.5em 0;
+    color: #4a4a4a;
+}
+
+
 
 /************************************************
 HEADING
@@ -113,29 +122,56 @@ footer {
 /************************************************
 PAGE: MAIN
 ************************************************/
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 
+#gallery {
+    list-style: none;
+    font-size: 0px;
+    margin-left: -8.5%;
 }
 
 #gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 3.5% 1.5%;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
+#gallery li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px;
+}
+
+#gallery li h4 {
+    margin: 0 0 5px;
+}
+
+#gallery li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+    margin: 0;
 }
 
 
-#gallery li a p {
-  margin: 0;
-  padding: 2%;
-  font-size: 0.75em;
-  color: #1b313f;
+/*
+ class for 3 columns 
+#gallery ul li {
+    width: 30.83%;
 }
+*/
+
+
+
+
+
 
 /************************************************
 COLOR

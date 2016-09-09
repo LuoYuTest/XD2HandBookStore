@@ -1,23 +1,4 @@
-@media screen and (min-width: 480px) {    
-/*********************************
-PAGE: MAIN
-*********************************/  
-
-#gallery li {
-    width: 19%;
-
-  }
-
-#gallery li:nth-child(5n) {
-    clear: left;
-  }
-}
-
-
-@media screen and (min-width: 480px) {    
-/*********************************
-PAGE: MAIN
-*********************************/  
+@media screen and (min-width: 1024px) {
     nav {
         float: left;
         width: 100%;
@@ -37,7 +18,7 @@ PAGE: MAIN
     
     #logo {
         float: left;
-        margin-left: 5%;
+        margin-left: 3%;
         text-align: left;
         width: 45%;
     }
@@ -45,4 +26,27 @@ PAGE: MAIN
     h1 {
         font-size: 1.5em;
     }
+}
+
+
+
+@media (min-width: 660px) and (max-width: 970px) {
+
+    /* class for 4 columns */
+
+    #gallery ul li {
+        width: 22.5%;
+    }
+    
+    .center {
+        margin: 0;
+    }
+    
+    
+}
+
+
+@media (max-width: 320px) {
+    
+
 }
