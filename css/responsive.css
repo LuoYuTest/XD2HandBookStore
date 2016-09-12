@@ -1,0 +1,52 @@
+@media screen and (min-width: 1024px) {
+    nav {
+        float: left;
+        width: 100%;
+        padding-left: 25px;
+        text-align: left;
+        border-bottom: 25px solid #fafafa;
+    }   
+    
+    .login {
+        float: right;
+        width: 45%;
+        font-size: 0.8em;
+        text-align: right;
+        padding-right: 25px;
+        margin-top: 5px;
+    }
+    
+    #logo {
+        float: left;
+        margin-left: 3%;
+        text-align: left;
+        width: 45%;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+@media (min-width: 660px) and (max-width: 970px) {
+
+    /* class for 4 columns */
+
+    #gallery ul li {
+        width: 22.5%;
+    }
+    
+    .center {
+        margin: 0;
+    }
+    
+    
+}
+
+
+@media (max-width: 320px) {
+    
+
+}
