@@ -67,6 +67,7 @@ audio:not([controls]) {
 
 html {
     font-size: 100%; /* 1 */
+    width: 100%;
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -90,6 +91,11 @@ textarea {
 
 body {
     margin: 0;
+    padding:0;
+     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+  width: 100%;
 }
 
 /* ==========================================================================
