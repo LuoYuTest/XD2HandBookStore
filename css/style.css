@@ -123,10 +123,13 @@ footer {
   color: #fff;
   height:10%;
   padding:5px 0;
-
   min-width: 350px;
   background-color: #50e3c2;
   clear: both;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /************************************************
@@ -140,8 +143,8 @@ PAGE: ASIDE
 ************************************************/
 
 aside{
-  width: 25%;
-  height: auto;
+    width: 25%;
+    height: auto;
     margin-left: 20px;
 
 }
@@ -212,7 +215,7 @@ input[type=range] {
 #best-selling {
   list-style: none;
   font-size: 0px;
-  margin-left: 1%;
+    width: 60px;
 }
 
 #best-selling li {
