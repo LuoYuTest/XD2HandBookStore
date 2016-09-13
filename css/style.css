@@ -3,7 +3,7 @@ GENERAL
 ************************************************/
 body {
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 ul {
    list-style: none;
@@ -11,7 +11,7 @@ ul {
 }
 #wrapper {
   width: 100%;
-  min-width: 360px; 
+  min-width: 360px;
   margin-left: 2%;
   display: flex;
 }
@@ -119,14 +119,17 @@ FOOTER
 ************************************************/
 footer {
   font-size: 0.85em;
-  text-align: center;  
+  text-align: center;
   color: #fff;
   height:10%;
   padding:5px 0;
-  
   min-width: 350px;
   background-color: #50e3c2;
   clear: both;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /************************************************
@@ -140,13 +143,18 @@ PAGE: ASIDE
 ************************************************/
 
 aside{
-  width: 15%;
-  height: auto;
- 
+    width: 25%;
+    height: auto;
+    margin-left: 20px;
+
+}
+
+form {
+    margin: 35px 0 35px 0;
 }
 .form-control{
   display: block;
-  width: 100%;  
+  width: 100%;
   padding: 4px 6px;
   font-size: 14px;
   margin-bottom: 10px;
@@ -154,32 +162,38 @@ aside{
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 4px;  
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);  
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 .form-control:focus {
   border-color: #fff;
-  outline: 0; 
+  outline: 0;
   box-shadow: inset 0 1px 1px #fff, 0 0 8px  #50e3c2;
 }
 
+input[type=range] {
+    width: 100%;
+}
+
 .btn {
-  display: inline-block;
-  padding: 6px 12px;  
-  font-size: 14px;  
-  line-height: 1.4;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;  
-  cursor: pointer;  
-  border: 1px solid transparent;
-  box-shadow: inset -1px -1px 2px rgba(0, 0, 0, .075);  
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  border-radius: 4px;
-  background-color: #50e3c2;
-  color:#fff;
+    display: inline-block;
+    width: 71px;
+    height: 33px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    background-color: #50e3c2;
+    color:#fff;
 }
 .btn:focus {
   color: #333;
@@ -190,53 +204,92 @@ aside{
   color:#333;
   font-size: 14px;
 }
-#best-selling li{
-    flex:none; 
-    width: 100%;
-    margin-bottom: 2%;   
-    background: #9e9e9e8c;  
-    font-size: 16px;   
-   
+
+#toprate {
+    width: 82px;
+    height: auto;
+    margin-right: 120px;
 }
-#best-selling li a{
-  display: inline-block;
-  margin-left: 2%;
-    width: 40%;
+
+
+#best-selling {
+  list-style: none;
+  font-size: 0px;
+    width: 60px;
 }
-#best-selling li div{
-   display: inline-block;
-   width: 50%;
-   margin-left: 5%;
+
+#best-selling li {
+    display: block;
+    width: 210px;
+    padding: 10px;
+    margin: 0 0 15.5% 40.5%;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
-.descripts p{
-  font-size: 20%;
+
+#best-selling li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
 }
+
+#best-selling li h5 {
+  margin: 0 0 5px;
+}
+
+#best-selling li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+    margin: 0;
+}
+
+#best-selling li a {
+  text-decoration: none;
+  color: #237b67;
+}
+
+#best-selling li span {
+  color: red;
+}
+
+#best-selling li em {
+  color: #4a4a4a;
+}
+
 
 /************************************************
 PAGE: CENTER
 ************************************************/
 .center{
-  width: 85%; 
+  width: 85%;
   margin-left: 5%;
 }
 
-#gallery {     
-    
+#gallery {
+
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
 #gallery li {
-   
+
     flex:none;
     padding: 10px 15px;
     margin: 0 3.5% 3.5% 0;
     background: #f5f5f5;
     border: 1px solid #ddd;
-    font-size: 16px;   
+    font-size: 16px;
     box-shadow: 0 0 5px #ddd;
-  
+
+
 }
 
 #gallery li img {
