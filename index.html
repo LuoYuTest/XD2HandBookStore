@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
+   <header>
     <a href="index.html" id="logo">
       <h1>2HandsBookShoop</h1>
     </a>
@@ -32,15 +32,85 @@
       </ul>
     </nav>
   </header>
+<div id="wrapper">
+ <aside>
+    <div id="search">
+     <p>CATALOG BOOKS</p>
+      <form action="">
+        <input type="text" placeholder="computer" class="form-control">
+        <select  class="form-control">
+          <option value="11">CSS</option>
+           <option value="12">Javascript</option>
+           <option value="13">html</option>
+           <option value="14">jquery</option>
+        </select>
+        <button class="btn">Search</button>
+     <p>PRICE FILTER</p>
+     <input type="range" min="1" max="100" id="price">
+     <span id="show_price">Price:&yen;18</span>
+       <button class="btn">Filter</button>
+      </form>
 
-  <div id="wrapper" class="">
-     <div class="books">
-        <form action="">
-        <input type="text" name="search" placeholder="Search">
-        <input type="submit" name="Search" value="Search">
-    </form>
+    </div>
+    <div id="recommend">
+        <p>TOP RATED</p>
+         <ul id="best-selling">
+       <li>
+         <a href="images/books_images/9780081006603.jpg">
+           <img src="images/books_images/9780081006603.jpg" alt="" />
+         </a>
+        <div class="descripts">
+             <h5>
+             Ageing Skin Care.
+           </h5>
+           <p>
+             <em>ISBM: 0538482389</em>
+           </p>
+           <p style="color:red;">
+             Price: &yen;89
+           </p>
+        </div>
+       </li>
+
+         <li>
+          <a href="images/books_images/9780081009161.jpg">
+            <img src="images/books_images/9780081009161.jpg" alt="" />
+
+          </a>
+          <div class="descripts">
+            <h5>
+              Joint Pain.
+            </h5>
+            <p>
+              <em>ISBM: 0538482389</em>
+            </p>
+            <p style="color:red;">
+              Price: &yen;125
+            </p>
+          </div>
+        </li>
+        <li>
+          <a href="images/books_images/9780081009161.jpg">
+            <img src="images/books_images/9780081009161.jpg" alt="" />
+
+          </a>
+          <div class="descripts">
+            <h5>
+              Joint Pain.
+            </h5>
+            <p>
+              <em>ISBM: 0538482389</em>
+            </p>
+            <p style="color:red;">
+              Price: &yen;125
+            </p>
+          </div>
+        </li>
+       </ul>
+    </div>
+ </aside>
     <section class="center">
-         <ul id="gallery">
+      <ul id="gallery">
         <li>
           <a href="images/books_images/9780081006603.jpg">
             <img src="images/books_images/9780081006603.jpg" alt="" />
@@ -135,7 +205,7 @@
      </div>
 
     </section>
-  </div>
+ </div>
 
   <footer>
     <p>&copy; Copyright 2016 XD2HandBookStore by XDCreater.</p>
