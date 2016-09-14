@@ -11,4 +11,8 @@
 - 主页面（1）
 ![](https://github.com/XDCreater/ReadmeImage/raw/master/XD2Hand/Main%20Page.jpg)
 - 主页面（2）
+<<<<<<< HEAD
+![](http://7xyfje.com1.z1.glb.clouddn.com/Main%20Page%20(1).jpg)
+
 ![](https://github.com/XDCreater/ReadmeImage/raw/master/XD2Hand/Main%20Page%20(1).jpg)
+>>>>>>> upstream/master
