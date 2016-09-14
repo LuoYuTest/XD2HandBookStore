@@ -3,32 +3,47 @@ GENERAL
 ************************************************/
 body {
   font-family: 'Open Sans', sans-serif;
-}
 
+}
+ul {
+   list-style: none;
+   padding:0;
+}
 #wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+  width: 100%;
+  min-width: 360px;
+  margin-left: 2%;
+  display: flex;
 }
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 img {
   max-width: 100%;
 }
+
 h3  {
   margin: 0 0 1em 0;
 }
+
+h4 {
+    font-size: 0.9em;
+    margin: 0 0 0.5em 0;
+    color: #4a4a4a;
+}
+
+
 
 /************************************************
 HEADING
 ************************************************/
 header {
   float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
+  margin-bottom:30px;
+  padding-top: 5px;
   width: 100%;
 }
 
@@ -103,38 +118,209 @@ nav a {
 FOOTER
 ************************************************/
 footer {
-  font-size: 0.75em;
+  font-size: 0.85em;
   text-align: center;
-  padding-top: 50px;
-  color: #ccc;
+  color: #fff;
+  height:10%;
+  padding:5px 0;
+  min-width: 350px;
+  background-color: #50e3c2;
   clear: both;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /************************************************
 PAGE: MAIN
 ************************************************/
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 
+
+
+/************************************************
+PAGE: ASIDE
+************************************************/
+
+aside{
+    width: 25%;
+    height: auto;
+    margin-left: 20px;
+
+}
+
+form {
+    margin: 35px 0 35px 0;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  padding: 4px 6px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+  border-color: #fff;
+  outline: 0;
+  box-shadow: inset 0 1px 1px #fff, 0 0 8px  #50e3c2;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    width: 71px;
+    height: 33px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    background-color: #50e3c2;
+    color:#fff;
+}
+.btn:focus {
+  color: #333;
+  background-color: #30e3c2;
+  text-decoration: none;
+}
+#show_price{
+  color:#333;
+  font-size: 14px;
+}
+
+#toprate {
+    width: 82px;
+    height: auto;
+    margin-right: 120px;
+}
+
+
+#best-selling {
+  list-style: none;
+  font-size: 0px;
+    width: 60px;
+}
+
+#best-selling li {
+    display: block;
+    width: 210px;
+    padding: 10px;
+    margin: 0 0 15.5% 40.5%;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#best-selling li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+#best-selling li h5 {
+  margin: 0 0 5px;
+}
+
+#best-selling li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+    margin: 0;
+}
+
+#best-selling li a {
+  text-decoration: none;
+  color: #237b67;
+}
+
+#best-selling li span {
+  color: red;
+}
+
+#best-selling li em {
+  color: #4a4a4a;
+}
+
+
+/************************************************
+PAGE: CENTER
+************************************************/
+.center{
+  width: 85%;
+  margin-left: 5%;
+}
+
+#gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 #gallery li {
-  float: left;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+
+    flex:none;
+    padding: 10px 15px;
+    margin: 0 3.5% 3.5% 0;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-shadow: 0 0 5px #ddd;
+
 
 }
 
-
-#gallery li a p {
-  margin: 0;
-  padding: 2%;
-  font-size: 0.75em;
-  color: #1b313f;
+#gallery li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px;
 }
+
+#gallery li h4 {
+    margin: 0 0 5px;
+}
+
+#gallery li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+    margin: 0;
+}
+
+
+/*
+ class for 3 columns 
+#gallery ul li {
+    width: 30.83%;
+}
+*/
+
+
+
+
+
 
 /************************************************
 COLOR
@@ -144,6 +330,7 @@ body {
   background-color: #fff;
   color: #1b313f;
 }
+
 
 /* nav background on mobile*/
 nav {
