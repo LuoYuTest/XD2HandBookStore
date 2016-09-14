@@ -1,0 +1,107 @@
+body {
+  font-size: 62.5%;
+  width: 99%;
+  height: 97%;
+  position: absolute;
+  background: url('https://hd.unsplash.com/photo-1465433045946-ba6506ce5a59') no-repeat fixed;
+  background-size: cover;
+  background-position: 50%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,  a {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.login-header {
+  color: #fff;
+  text-align: center;
+  font-size: 150%
+}
+
+.login-header h1 {
+  margin: 50px 0 -35px 0;
+  color: #5CE6CD;
+  text-shadow: 0 2px 3px #000;
+}
+
+.login-form {
+  border: 1px solide #999;
+  background: #fff;
+  box-shadow:  0 0 1px #ddd;
+  box-sizing: border-box;
+  padding-top: 15px;
+  margin: 50px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.img {
+  width: 188px;
+  max-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  float: left;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  max-width: 400px;
+  height: 30px;
+  font-family:  'Open Sans',  sans-serif;
+  margin: 10px 0;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.login-form input[type="button"] {
+  height: 30px;
+  width: 100px;
+  background:  #fff;
+  border: 1px solid #5CE6CD;
+  border-radius: 20px;
+  color: #9B9B9B;
+  text-transform: uppercase;
+  font-family:  'Open Sans',  sans-serif;
+}
+
+.label {
+  color: #708090;
+}
+
+.no-access {
+  color: #5CE6CD;
+  margin: 20px 0 20px -300px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-button {
+  margin: 0 10px 0 10px;
+}
+
+/*Media Querie*/
+@media only screen and (min-width: 150px) and (max-width: 530px) {
+  .login-form h3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .no-access {
+    margin: 10px 0;
+  }
+
+  .login-button {
+    margin-bottom: 10px;
+  }
+}
