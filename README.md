@@ -2,7 +2,7 @@
 西电二手书交易网站
 
 ##网站页面效果设计图展示
-
+- 登录页面
 ![](https://github.com/XDCreater/ReadmeImage/raw/master/XD2Hand/Login.jpg)
 - 二维码登录页面
 ![](https://github.com/XDCreater/ReadmeImage/raw/master/XD2Hand/QR%20Code%20Login.jpg)
