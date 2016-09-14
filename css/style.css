@@ -237,6 +237,7 @@ input[type=range] {
   max-width: 100%;
   height: auto;
   margin: 0 0 10px;
+<<<<<<< HEAD
 }
 
 #best-selling li h5 {
@@ -263,6 +264,34 @@ input[type=range] {
   color: #4a4a4a;
 }
 
+=======
+}
+
+#best-selling li h5 {
+  margin: 0 0 5px;
+}
+
+#best-selling li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+    margin: 0;
+}
+
+#best-selling li a {
+  text-decoration: none;
+  color: #237b67;
+}
+
+#best-selling li span {
+  color: red;
+}
+
+#best-selling li em {
+  color: #4a4a4a;
+}
+
+>>>>>>> 9135213dc967454ab3964f41b9e1235bf901089e
 
 /************************************************
 PAGE: CENTER
