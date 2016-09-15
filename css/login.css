@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6,  a {
   font-family:  'Open Sans',  sans-serif;
 }
 
+
 label.label{
     margin: 0px;
     padding: 0px;
@@ -100,11 +101,11 @@ input[type="checkbox"] {
 }
 
 .no-access {
-  color: #5CE6CD;
-  margin: 20px 0 20px -300px;
-  text-decoration: underline;
+    color: #5CE6CD;
+    margin: 20px 0 20px -300px;
+    text-decoration: underline;
     font-size: 12px;
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .login-button {
