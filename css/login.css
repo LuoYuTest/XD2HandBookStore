@@ -26,10 +26,19 @@ h1, h2, h3, h4, h5, h6,  a {
   font-size: 150%
 }
 
+.login-header h1 em {
+    position: absolute;
+    color:white;
+    font-size: 16px;
+    margin: 12px 0 0 -83px;
+}
+
 .login-header h1 {
-  margin: 50px 0 -35px 0;
-  color: #5CE6CD;
-  text-shadow: 0 2px 3px #000;
+    margin: 100px -234px -30px 0;
+    color: #5CE6CD;
+    text-shadow: 0 2px 3px #000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 
 .login-form {
