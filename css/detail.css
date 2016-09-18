@@ -1,0 +1,128 @@
+.center{
+  width: 85%;
+  margin-left: 5%;
+}
+
+.center .search {
+  width:100%;
+  height:80px;
+  border-bottom: 2px solid #ccc;
+  /*background:#069;*/
+}
+.center .book_detail {
+  margin-top: 30px;
+  width:100%;
+  height:376px;
+  /*border: 1px solid #000;*/
+}
+.center img{
+  float:left;
+  width:28%;
+  height:100%;
+}
+.center .detail_message{
+  float:left;
+  margin-left: 100px;
+  width:35%;
+  height:100%;
+  /*border: 1px solid #000;*/
+}
+.detail_message h3{
+  font-size: 30px;
+  color:#5C5B5C;
+  margin:0 0 15px 0;
+}
+.detail_message p{
+  margin:0 0 13px 0;
+}
+.center .contact {
+  margin-top: 30px;
+  width:100%;
+  height:50px;
+  background: #50E3C2;
+  font-weight: 500;
+  color:#fff;
+  padding: 10px 10px;
+}
+
+.center .message{
+  margin-top: 30px;
+  width:70%;
+  height:380px;
+  position: relative;
+  /*border: 1px solid #000;*/
+}
+#shade{
+  width:16%;
+  height:2px;
+  border-left:1px solid #bbb;
+  border-right:1px solid #bbb;
+  border-top: 0;
+  border-bottom: 0;
+  background-color:white;
+  position:absolute;
+  top:59px;
+  left:0;
+}
+#tab{
+  width:80%;
+  height:60px;
+  margin:0 0 0 0;
+  overflow:hidden;
+  zoom:1;
+  list-style-type:none;
+}
+#tab li{
+  float:left;
+  width:20%;
+  height:60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+#tab_con {width:100%;height:280px;}
+
+#tab_con div {
+  width:100%;height:250px;
+  display:none;
+  border:1px #bbb solid;
+  padding:20px;
+  }
+#tab_con div.fdiv {display:block;border-radius: 0 20px 20px 20px;}
+#tab .fli{
+  border:1px solid #bbb;
+  border-bottom:none;
+  border-radius: 20px 20px 0px 0px;
+}
+#first{
+  border-radius: 0 20px 20px 20px;
+}
+.center .cate{
+  float:left;
+  margin-left: 100px;
+}
+.center .form-control{
+  float:left;
+  margin-left: 40px;
+  width:20%;
+}
+.center .btn{
+  float:left;
+  margin-left: 70px;
+}
+.detail_ul{
+  width:100%;
+}
+ .detail_ul li{
+  float:left;
+  width:100%;
+  height:30px;
+}
+.detail_ul  .left{
+  float:left;
+  margin-left:0px;
+}
+.detail_ul  .right{
+  float:left;
+  margin-left:80px;
+}
