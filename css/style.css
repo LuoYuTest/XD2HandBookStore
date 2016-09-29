@@ -1,98 +1,57 @@
-/************************************************
-GENERAL
-************************************************/
-body {
-  font-family: 'Open Sans', sans-serif;
-
-}
-ul {
-   list-style: none;
-   padding:0;
-}
-#wrapper {
-  width: 100%;
-  min-width: 360px;
-  margin-left: 2%;
-  display: flex;
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ededed;
+    font-family: 'Trebuchet MS';
 }
 
-a {
-  text-decoration: none;
-  display: block;
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
 }
 
-img {
-  max-width: 100%;
-}
-
-h3  {
-  margin: 0 0 1em 0;
-}
-
-h4 {
-    font-size: 0.9em;
-    margin: 0 0 0.5em 0;
-    color: #4a4a4a;
-}
-
-
-
-/************************************************
-HEADING
-************************************************/
 header {
-  float: left;
-  margin-bottom:30px;
-  padding-top: 5px;
-  width: 100%;
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    background-color: #fff;
 }
 
-#logo {
-  text-align: center;
-  margin: 0;
-  color: #50e3c2;
-}
+    header span {
+        color: #50e3c2;
+        font-size: 30px;
+        padding-left: 20px;
+    }
 
-h1  {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-}
-
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-}
-
-/************************************************
-NAVIGATION
-************************************************/
 nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+    width: 100%;
+    height: 40px;
+    background-color: #50e3c2;
 }
 
 nav ul {
-  list-style: none;
-  padding: 10px 0;
-  margin: 0;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 0 0 10px;
 }
 
 nav li {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav a {
-  font-weight: 800;
-  padding: 15px 10px;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+nav a, nav a:visited {
+    color: #fff;
 }
 
 .login {
-  text-align: center;
+    text-align: center;
+    display: inline-table;
 }
 
 .login ul {
@@ -103,59 +62,112 @@ nav a {
 
 .login li {
   display: inline-block;
+
 }
 
 .login li a {
-  margin: 0 20px 0 20px;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
 }
+
 
 .login a {
-  font-weight: 800;
-  color: #4a4a4a;
+    font-weight: 800;
+    color: #4a4a4a;
 }
 
-/************************************************
-FOOTER
-************************************************/
+.content {
+    width: 100%;
+    height: 1200px;
+    padding: 10px 0px;
+    background-color: #fff;
+}
+
 footer {
-  font-size: 0.85em;
-  text-align: center;
-  color: #fff;
-  height:10%;
-  padding:5px 0;
-  min-width: 350px;
-  background-color: #50e3c2;
-  clear: both;
+    width: 100%;
+    height: 80px;
+    background-color: #50e3c2;
+    margin-bottom: 20px;
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
 }
 
-footer p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/************************************************
-PAGE: MAIN
-************************************************/
-
-
-
-/************************************************
-PAGE: ASIDE
-************************************************/
-
-aside{
-    width: 25%;
+.main_articles {
+    width: 70%;
+    float: right;
     height: auto;
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+.side_article {
+    width: 25%;
+    float: left;
+    height: 600px;
+    border-right: 1px dotted #6d6d6d;
+}
+
+.siteDescription {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+/*    width: 95%;*/
 
 }
 
-form {
-    margin: 35px 0 35px 0;
+.desImage {
+
+    margin: 0 0 0 40px;
 }
+
+    .desImage img {
+        width: 148px;
+        height: 214px;
+        margin-left: 0px;
+        border: 0px solid #6d6d6d;
+    }
+
+.des {
+
+    width: 100%;
+    height: 100px;
+    padding: 0;
+}
+
+.des h4, p {
+    margin: 1px;
+}
+
+.ads {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+/*    text-align: center;*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+/*    background-color: #e5eff3;*/
+}
+
+.bestselling {
+    display: flex;
+    flex-direction: column;
+}
+
+.ads span, form h4 {
+    color: #50e3c2;
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+/**********************************
+ASIDE
+**********************************/
+
 .form-control{
   display: block;
   width: 100%;
-  padding: 4px 6px;
+  padding: 4px 0px;
   font-size: 14px;
   margin-bottom: 10px;
   color: #555;
@@ -200,148 +212,69 @@ input[type=range] {
   background-color: #30e3c2;
   text-decoration: none;
 }
-#show_price{
-  color:#333;
-  font-size: 14px;
+
+
+/***************************************
+SECTION: MEDIA QUERIES
+****************************************/
+
+@media all and (max-width: 900px) {
+    .side_article { /* Hide advertisement panel*/
+        display: none;
+        visibility: hidden;
+    }
+
+    .siteDescription {
+        width: 100%; /* Earlier 70%*/
+    }
+
+    .main_articles {
+        width: 90%;/* Earlier 95%*/
+    }
 }
 
-#toprate {
-    width: 82px;
-    height: auto;
-    margin-right: 120px;
+@media all and (max-width: 500px) {
+    header {
+        height: 70px;
+        line-height: 70px;
+    }
+
+        header span {
+            font-size: 16px;
+        }
+
+    .side_article {
+        display: none;
+        visibility: hidden;
+    }
+
+    .main_articles {
+        width: 90%;
+    }
+
+    .siteDescription {
+        width: 95%;
+        height: auto;
+        display: block;
+    }
+
+    .desImage {
+        margin: auto;
+        width: 75%;
+        height: auto;
+    }
+
+        .desImage img {
+            width: 50%;
+            margin-left: 5px;
+        }
+
+    .des {
+        margin: auto;
+        margin-top: 10px;
+
+    }
 }
 
+/********************************************/
 
-#best-selling {
-  list-style: none;
-  font-size: 0px;
-    width: 60px;
-}
-
-#best-selling li {
-    display: block;
-    width: 210px;
-    padding: 10px;
-    margin: 0 0 15.5% 40.5%;
-    background: #f5f5f5;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    font-size: 1rem;
-    vertical-align: top;
-    box-shadow: 0 0 5px #ddd;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-#best-selling li img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 0 10px;
-}
-
-#best-selling li h5 {
-  margin: 0 0 5px;
-}
-
-#best-selling li p {
-    font-size: .9em;
-    line-height: 1.5em;
-    color: #999;
-    margin: 0;
-}
-
-#best-selling li a {
-  text-decoration: none;
-  color: #237b67;
-}
-
-#best-selling li span {
-  color: red;
-}
-
-#best-selling li em {
-  color: #4a4a4a;
-}
-
-
-/************************************************
-PAGE: CENTER
-************************************************/
-.center{
-  width: 85%;
-  margin-left: 5%;
-}
-
-#gallery {
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-#gallery li {
-
-    flex:none;
-    padding: 10px 15px;
-    margin: 0 3.5% 3.5% 0;
-    background: #f5f5f5;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    box-shadow: 0 0 5px #ddd;
-
-
-}
-
-#gallery li img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 0 10px;
-}
-
-#gallery li h4 {
-    margin: 0 0 5px;
-}
-
-#gallery li p {
-    font-size: .9em;
-    line-height: 1.5em;
-    color: #999;
-    margin: 0;
-}
-
-
-/*
- class for 3 columns 
-#gallery ul li {
-    width: 30.83%;
-}
-*/
-
-
-
-
-
-
-/************************************************
-COLOR
-************************************************/
-/*Site body */
-body {
-  background-color: #fff;
-  color: #1b313f;
-}
-
-
-/* nav background on mobile*/
-nav {
-  background: #50e3c2;
-}
-
-nav a, nav a:visited {
-  color: #fff;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #4a4a4a;
-}
