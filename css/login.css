@@ -1,44 +1,130 @@
-body {
-  font-size: 62.5%;
-  width: 99%;
-  height: 97%;
-  position: absolute;
-  background: url('https://github.com/XDCreater/XD2HandBookStore/blob/master/images/photo-book.jpg?raw=true') no-repeat fixed;
-  background-size: cover;
-  background-position: 50%;
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS';
+    background: url('https://github.com/XDCreater/XD2HandBookStore/blob/master/images/photo-book.jpg?raw=true') no-repeat fixed;
+    background-size: cover;
+    background-position: 50%;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6,  a {
-  margin: 0;
-  padding: 0;
-}
 
-.login {
-  margin: 0 auto;
-  max-width: 700px;
-}
-
-.login-header {
-  color: #fff;
-  text-align: center;
-  font-size: 150%
-}
-
-.login-header h1 em {
+h1, h5 {
     position: absolute;
-    color:white;
-    font-size: 16px;
-    margin: 12px 0 0 -83px;
+    color: #fff;
+    text-shadow: 0 1px 3px #000;
 }
 
-.login-header h1 {
-    margin: 100px -234px -30px 0;
-    color: #5CE6CD;
-    text-shadow: 0 2px 3px #000;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+h1 {
+    margin: 80px 0 0 30px;
+
+}
+
+h5 {
+    margin: 110px 0 0 30px;
+}
+
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+
+
+
+    header span {
+        color: #fff;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+nav {
+    width: 100%;
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav ul .active {
+    color: #50E3C2;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    padding: 10px 0px;
+}
+
+
+.main_articles {
+    width: 70%;
+    float: left;
+    height: 300px;
+    margin: 150px 0 0 150px;
+}
+
+
+.siteDescription {
+    display: -moz-box; /* Firefox*/
+    display: -webkit-box; /* Chrome */
+    display: -ms-flexbox; /* IE 10 */
+    display: flexbox;
+    flex-direction: row;
+    flex-align:start;
+    width: 95%;
+    height: 300px;
+}
+
+
+.desImage {
+    -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+    -webkit-order: 1; /* Chrome */
+    flex-order: 1;
+    width: 200px;
+    height: 300px;
+    background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(80, 227, 194, 0.50),
+      rgba(80, 227, 194, 0.50)
+    ),
+    /* bottom, image */
+    url(https://github.com/XDCreater/XD2HandBookStore/blob/master/images/photo-1424115087662-5845efc6b366.jpg?raw=true) no-repeat;
+    background-size: cover;
+}
+
+
+    .desImage img {
+        width: 200px;
+        margin-left: 5px;
+        border: 0px solid #6d6d6d;
+    }
+
+
+.des {
+    -webkit-box-ordinal-group: 2; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 2; /* Firefox*/
+    -ms-flex-order: 2; /* IE 10 */
+    -webkit-order: 2; /* Chrome */
+    flex-order: 2;
+    width: 70%;
+    height: 300px;
+    background-color: #e9e9e9;
+    padding: 5px;
 }
 
 .login-form {
@@ -46,26 +132,16 @@ h1, h2, h3, h4, h5, h6,  a {
   background: #fff;
   box-shadow:  0 0 1px #ddd;
   box-sizing: border-box;
-  padding-top: 15px;
-  margin: 50px auto;
+  padding-top: 1px;
   text-align: center;
   overflow: hidden;
 }
 
-
-.img {
-  width: 200px;
-  max-width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  float: left;
-}
-
-.login input[type="text"],
-.login input[type="password"] {
-  width: 100%;
+.des input[type="text"],
+.des input[type="password"] {
+  width: 60%;
   max-width: 400px;
-  height: 30px;
+  height: 20px;
   font-family:  'Open Sans',  sans-serif;
   margin: 10px 0;
   padding-left: 10px;
@@ -73,7 +149,7 @@ h1, h2, h3, h4, h5, h6,  a {
   border-bottom: 1px solid #ddd;
 }
 
-.login-form input[type="button"] {
+.des input[type="button"] {
   height: 30px;
   width: 100px;
   background:  #fff;
@@ -84,46 +160,10 @@ h1, h2, h3, h4, h5, h6,  a {
   font-family:  'Open Sans',  sans-serif;
 }
 
-
-label.label{
-    margin: 0px;
-    padding: 0px;
-}
-
-.label {
-    color: #708090;
-    display: block;
-    padding-left: 20px;
-}
-
-input[type="checkbox"] {
-   margin-left: -20px;
-}
-
 .no-access {
     color: #5CE6CD;
-    margin: 20px 0 20px -300px;
+    margin: 10px 0 20px -200px;
     text-decoration: underline;
     font-size: 12px;
     cursor: pointer;
-}
-
-.login-button {
-  margin: 0 10px 0 10px;
-}
-
-/*Media Querie*/
-@media only screen and (min-width: 150px) and (max-width: 530px) {
-  .login-form h3 {
-    text-align: center;
-    margin: 0;
-  }
-
-  .no-access {
-    margin: 10px 0;
-  }
-
-  .login-button {
-    margin-bottom: 10px;
-  }
 }
