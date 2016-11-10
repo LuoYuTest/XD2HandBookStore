@@ -1,0 +1,106 @@
+ .grid-container{
+        width: 100%; 
+        max-width: 1500px;     
+    }
+  .row{
+    margin:2px;
+  }
+    /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+        display: table;
+        clear:both;
+    }
+  
+    [class*='col-'] {
+        float: left; 
+        min-height: 1px; 
+        width: 8.3333%; 
+        /*-- our gutter -- */
+        padding: 10px; 
+       
+        /* background-color: #FFDCDC; */
+    }
+
+    .col-1{ width: 8.3333%; }
+    .col-2{ width: 16.6667%; }
+    .col-3{ width: 25%;    }
+    .col-4{ width: 33.3333%; }
+    .col-5{ width: 41.6667%; }
+    .col-6{ width: 50%;   }
+    .col-7{ width: 58.3333%; }
+    .col-8{ width: 66.6667%; }
+    .col-9{ width: 75%; }
+    .col-10{ width: 83.3333%;    }
+    .col-11{ width: 91.6667%; }
+    .col-12{ width: 100%; }
+    
+    
+
+   
+
+    /*-- some extra column content styling --*/
+    [class*='col-'] > figure {
+     /* background-color: #f5f5f5;  */
+     padding: 2px 2px 10px 2px ;   
+      
+     text-align: center; 
+     vertical-align: center;
+     color: black; 
+     font-size: .2em;
+      background-size:cover;
+      border:1px solid #eee;
+    }
+    /*-- Grid Responsive --*/
+
+     @media all and (min-width:1024px){
+       
+    }
+     @media all and (max-width:1024px){
+       
+    }
+       @media all and (max-width:768px){
+        .col-1{ width: 16.6667%;    }
+        .col-2{ width: 33.3333%;        }
+        .col-3{ width: 50%;    }
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;      }
+        .col-7{ width: 100%; }
+        .col-8{ width: 100%; }
+        .col-9{ width: 100%; }
+        .col-10{ width: 100%;    }
+        .col-11{ width: 100%; }
+        .col-12{ width: 100%; }
+        
+    }
+      @media all and (max-width:667px){
+        .col-1{ width: 25%;        }
+        .col-2{ width: 50%;    }
+        .col-3{ width: 100%;    }
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;      }
+        .col-7{ width: 100%;    }
+        .col-8{ width: 100%;    }
+        .col-9{ width: 100%;    }
+        .col-10{ width: 100%;    }
+        .col-11{ width: 100%;    }
+        .col-12{ width: 100%;    }
+    }
+
+     @media all and (max-width:375px){
+        .col-1{ width: 50%;    }
+        .col-2{ width: 100%;    }
+        .col-3{ width: 100%;    }
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;    }
+        .col-7{ width: 100%;    }
+        .col-8{ width: 100%;    }
+        .col-9{ width: 100%;    }
+        .col-10{ width: 100%;    }
+        .col-11{ width: 100%;    }
+        .col-12{ width: 100%;    }
+    }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人信息界面</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../css/person.css">
+    <link rel="stylesheet" href="../css/grid.css">
+</head>
+<body>
+	 <header>
+            <span>2HandBookStore</span>                
+                <div class="login">
+                    <ul class="login-option">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </div>
+      </header>
+      <nav class="row">
+                <ul class="col-8" id="navul">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">CONTACT</a></li>
+              </ul>
+              <ul class="col-2" id="drop_down">
+               <li><!-- <img src="Images/profile.png" alt="人物图像" width="50px;" height="50px;"> --><a href="#"></a> </li>
+              <li id="arror"><a href="#">箭头</a>
+                  <ul  class="sub_menu"> 
+                  <li  class="item"><a href="#" class="alink">Signed in as Susan</a></li>
+                  <li  class="item"><a href="#" class="alink">Your profile</a></li>
+                  <li class="item"><a href="#" class="alink">Help</a></li>
+                <li class="item"><a href="#" class="alink">Settings</a></li>
+                <li class="item"><a href="#" class="alink">Sign out</a></li>
+         </ul>
+              </li>
+              
+                 
+              
+             </ul>
+              
+
+
+      </nav>
+      <div class="row">
+         <aside class="col-3">
+         	    <div class="row"><img src="../images/profile.png"/>
+                        <div>
+                            <h2>
+                               Susan
+                            </h2>
+                            <h4> Harrington </h4>                    
+                        </div>
+                </div>  
+
+               <div class="row" id="orderinfo">
+               	   <p>Book published </p>
+               	   <p>Recommended books </p>
+               	   <p>Teacher Recommended books</p>
+               </div>
+         </aside>
+         <section class="col-6">
+         	 <div class="row" id="personPic">
+         	     <button class="btn"> <h1>Public profile</h1></button>
+         	     <h4 id="pro_pic">Profile picture</h4>
+         	     <div class="row">
+         	 	 <img src="../images/profile.png" alt="人物图像" width="80px;" height="80px;" class="col-2">
+
+         	 	 <div class="col-8" ><a href="#" id="changePic" class="btn">Upload new  picture</a>
+                  <p id="changePicP">You can also drag and drop a picture from you computer. </p>
+              </div>
+         	 	 </div>
+         	 </div>
+         	 <div class="row" id="personinfo">
+         	 	<form action="">
+         	 		<label for="user" class="col-12">User</label>
+         	 		<input type="text" id="user" placeholder="Suan" class="col-12 form-control">
+         	 		<label for="Fname" class="col-12">First name</label>
+         	 		<input type="text" id="Fname" placeholder="Suan" class="col-12 form-control">
+         	 		<label for="Lname" class="col-12">Last name</label>
+         	 		<input type="text" id="Lname" placeholder="Suan" class="col-12 form-control">
+         	 		<label for="email" class="col-12">Emaile</label>
+         	 		<input type="email" id="email" placeholder="111@qq.com" class="col-12 form-control">
+         	 		<button class="btn"><h1>Update password</h1></button>
+         	 		<label for="pwd" class="col-12">Previous password</label>
+         	 		<input type="password" id="pwd" placeholder="" class="col-12 form-control">
+         	 		<label for="Npwd" class="col-12">New password</label>
+         	 		<input type="password" id="Npwd" placeholder="" class="col-12 form-control">
+         	 	</form>
+         	 </div>
+
+         </section>
+      </div>
+      	<footer>
+            <p>&copy; Copyright 2016 XD2HandBookStore by XDCrater.</p> 
+            </footer> 
+   <script src="../js/person.js"></script>     
+</body>
+</html>
